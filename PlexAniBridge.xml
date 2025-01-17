@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1737077251</DateInstalled>
+  <DateInstalled>1737078568</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
@@ -27,8 +27,8 @@
   <Config Name="Plex URL" Target="PLEX_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Plex Library" Target="PLEX_SECTIONS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">["ReplaceWithLibraryName"]</Config>
   <Config Name="Sync Interval" Target="SYNC_INTERVAL" Default="3600" Mode="" Description="Seconds" Type="Variable" Display="always" Required="true" Mask="false">3600</Config>
-  <Config Name="Polling Scan" Target="POLLING_SCAN" Default="True|False" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">True</Config>
-  <Config Name="Full Scan" Target="FULL_SCAN" Default="True|False" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">True</Config>
+  <Config Name="Polling Scan" Target="POLLING_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">False</Config>
+  <Config Name="Full Scan" Target="FULL_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">False</Config>
   <Config Name="Destructive Sync" Target="DESTRUCTIVE_SYNC" Default="False|True" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">False</Config>
   <Config Name="Excluded Sync Fields" Target="EXCLUDED_SYNC_FIELDS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">["notes", "score"]</Config>
   <Config Name="Dry Run" Target="DRY_RUN" Default="False|True" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">False</Config>
