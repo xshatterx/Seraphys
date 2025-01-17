@@ -17,24 +17,24 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1737078568</DateInstalled>
+  <DateInstalled>1737081232</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="AniList Token" Target="ANILIST_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true"/>
-  <Config Name="Plex Token" Target="PLEX_TOKEN" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="true"/>
-  <Config Name="Plex Username" Target="PLEX_USER" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="Plex URL" Target="PLEX_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Plex Library" Target="PLEX_SECTIONS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">["ReplaceWithLibraryName"]</Config>
-  <Config Name="Sync Interval" Target="SYNC_INTERVAL" Default="3600" Mode="" Description="Seconds" Type="Variable" Display="always" Required="true" Mask="false">3600</Config>
-  <Config Name="Polling Scan" Target="POLLING_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">False</Config>
-  <Config Name="Full Scan" Target="FULL_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">False</Config>
-  <Config Name="Destructive Sync" Target="DESTRUCTIVE_SYNC" Default="False|True" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">False</Config>
-  <Config Name="Excluded Sync Fields" Target="EXCLUDED_SYNC_FIELDS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">["notes", "score"]</Config>
-  <Config Name="Dry Run" Target="DRY_RUN" Default="False|True" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">False</Config>
-  <Config Name="Data Path" Target="/app/data" Default="/mnt/user/appdata/plex_ani_bridge/data" Mode="rw" Description="" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/plex_ani_bridge/data</Config>
-  <Config Name="Internal Data Path" Target="DATA_PATH" Default="/app/data" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">/app/data</Config>
-  <Config Name="Logs Path" Target="/app/logs" Default="/mnt/user/appdata/plex_ani_bridge/logs" Mode="rw" Description="" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/plex_ani_bridge/logs</Config>
-  <Config Name="Log Level" Target="LOG_LEVEL" Default="INFO|DEBUG|WARNING|ERROR|CRITICAL" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">INFO</Config>
-  <Config Name="Fuzzy Search Threshold" Target="FUZZY_SEARCH_THRESHOLD" Default="90" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">90</Config>
+  <Config Name="AniList Token" Target="ANILIST_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
+  <Config Name="Plex Token" Target="PLEX_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
+  <Config Name="Plex Username" Target="PLEX_USER" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Plex URL" Target="PLEX_URL" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Plex Library" Target="PLEX_SECTIONS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">["ReplaceWithLibraryName"]</Config>
+  <Config Name="Sync Interval" Target="SYNC_INTERVAL" Default="3600" Mode="" Description="Seconds" Type="Variable" Display="always-hide" Required="true" Mask="false">3600</Config>
+  <Config Name="Polling Scan" Target="POLLING_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
+  <Config Name="Full Scan" Target="FULL_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
+  <Config Name="Destructive Sync" Target="DESTRUCTIVE_SYNC" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
+  <Config Name="Excluded Sync Fields" Target="EXCLUDED_SYNC_FIELDS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">["notes", "score"]</Config>
+  <Config Name="Dry Run" Target="DRY_RUN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
+  <Config Name="Data Path" Target="/app/data" Default="/mnt/user/appdata/plex_ani_bridge/data" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/plex_ani_bridge/data</Config>
+  <Config Name="Internal Data Path" Target="DATA_PATH" Default="/app/data" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">/app/data</Config>
+  <Config Name="Logs Path" Target="/app/logs" Default="/mnt/user/appdata/plex_ani_bridge/logs" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/plex_ani_bridge/logs</Config>
+  <Config Name="Log Level" Target="LOG_LEVEL" Default="INFO|DEBUG|WARNING|ERROR|CRITICAL" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">INFO</Config>
+  <Config Name="Fuzzy Search Threshold" Target="FUZZY_SEARCH_THRESHOLD" Default="90" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">90</Config>
 </Container>
