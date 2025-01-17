@@ -31,9 +31,9 @@
   <Config Name="Full Scan" Target="FULL_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
   <Config Name="Destructive Sync" Target="DESTRUCTIVE_SYNC" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
   <Config Name="Excluded Sync Fields" Target="EXCLUDED_SYNC_FIELDS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">["notes", "score"]</Config>
-  <Config Name="Data Path" Target="/app/data" Default="/mnt/user/appdata/plex_ani_bridge/data" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/plex_ani_bridge/data</Config>
+  <Config Name="Data Path" Target="/app/data" Default="/mnt/user/appdata/plexanibridge/data" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/plex_ani_bridge/data</Config>
   <Config Name="Internal Data Path" Target="DATA_PATH" Default="/app/data" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">/app/data</Config>
-  <Config Name="Logs Path" Target="/app/logs" Default="/mnt/user/appdata/plex_ani_bridge/logs" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/plex_ani_bridge/logs</Config>
+  <Config Name="Logs Path" Target="/app/logs" Default="/mnt/user/appdata/plexanibridge/logs" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/plex_ani_bridge/logs</Config>
   <Config Name="Log Level" Target="LOG_LEVEL" Default="INFO|DEBUG|WARNING|ERROR|CRITICAL" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">INFO</Config>
   <Config Name="Dry Run" Target="DRY_RUN" Default="False|True" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">False</Config>
   <Config Name="Fuzzy Search Threshold" Target="FUZZY_SEARCH_THRESHOLD" Default="90" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">90</Config>
