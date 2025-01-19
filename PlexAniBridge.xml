@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>PlexAniBridge</Name>
   <Repository>ghcr.io/eliasbenb/plexanibridge:latest</Repository>
-  <Registry>ghcr.io/eliasbenb/plexanibridge</Registry>
+  <Registry>https://github.com/eliasbenb/PlexAniBridge/pkgs/container/plexanibridge</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
