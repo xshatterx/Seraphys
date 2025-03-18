@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Profilarr</Name>
+  <Repository>santiagosayshey/profilarr:latest</Repository>
+  <Registry>https://hub.docker.com/r/santiagosayshey/profilarr</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/Dictionarry-Hub/profilarr/issues</Support>
+  <Project>https://github.com/Dictionarry-Hub/profilarr</Project>
+  <Overview>Configuration management tool for Radarr/Sonarr that automates importing and version control of custom formats and quality profiles.</Overview>
+  <Category>Productivity: Tools: MediaApp:Video MediaServer:Video</Category>
+  <WebUI>http://[IP]:[PORT:6868]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Dictionarry-Hub/logo/refs/heads/main/profilarr/profilarr.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1741491567</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI" Target="6868" Default="6868" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"/>
+  <Config Name="Config" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Github Username" Target="GIT_USER_NAME" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">Profilarr</Config>
+  <Config Name="Github Email" Target="GIT_USER_EMAIL" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">profilarr@dictionarry.com</Config>
+  <Config Name="Github Access Key" Target="PROFILARR_PAT" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="true"/>
+</Container>
