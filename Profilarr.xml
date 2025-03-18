@@ -21,7 +21,7 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="WebUI" Target="6868" Default="6868" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"/>
+  <Config Name="WebUI" Target="6868" Default="6868" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6868</Config>
   <Config Name="Config" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Github Username" Target="GIT_USER_NAME" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">Profilarr</Config>
   <Config Name="Github Email" Target="GIT_USER_EMAIL" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">profilarr@dictionarry.com</Config>
