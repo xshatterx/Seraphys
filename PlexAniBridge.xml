@@ -4,7 +4,6 @@
   <Repository>ghcr.io/eliasbenb/plexanibridge:latest</Repository>
   <Registry>https://github.com/eliasbenb/PlexAniBridge/pkgs/container/plexanibridge</Registry>
   <Network>bridge</Network>
-  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/eliasbenb/PlexAniBridge/issues</Support>
@@ -17,9 +16,6 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1737081232</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
   <Requires/>
   <Config Name="AniList Token" Target="ANILIST_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
   <Config Name="Plex Token" Target="PLEX_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
