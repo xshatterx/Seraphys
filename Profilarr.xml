@@ -15,8 +15,6 @@
   <Icon>https://raw.githubusercontent.com/Dictionarry-Hub/logo/refs/heads/main/profilarr/profilarr.png</Icon>
   <ExtraParams/>
   <PostArgs/>
-  <CPUset/>
-  <Requires/>
   <Config Name="WebUI" Target="6868" Default="6868" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Config" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Github Username" Target="GIT_USER_NAME" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">Profilarr</Config>
