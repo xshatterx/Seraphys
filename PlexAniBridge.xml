@@ -15,8 +15,6 @@
   <Icon>https://raw.githubusercontent.com/xshatterx/Seraphys/119181881e9f47b4e22102b771876132550b4aaa/PlexAniBridge.png</Icon>
   <ExtraParams/>
   <PostArgs/>
-  <CPUset/>
-  <Requires/>
   <Config Name="AniList Token" Target="ANILIST_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
   <Config Name="Plex Token" Target="PLEX_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
   <Config Name="Plex Username" Target="PLEX_USER" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
