@@ -8,6 +8,7 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/Dictionarry-Hub/profilarr/issues</Support>
   <Project>https://github.com/Dictionarry-Hub/profilarr</Project>
+  <ReadMe>https://dictionarry.dev</ReadMe>
   <Overview>Configuration management tool for Radarr/Sonarr that automates importing and version control of custom formats and quality profiles.</Overview>
   <Category>Productivity: Tools: MediaApp:Video MediaServer:Video</Category>
   <WebUI>http://[IP]:[PORT:6868]</WebUI>
