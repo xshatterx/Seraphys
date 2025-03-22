@@ -24,10 +24,10 @@
   <Config Name="Polling Scan" Target="POLLING_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
   <Config Name="Full Scan" Target="FULL_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
   <Config Name="Destructive Sync" Target="DESTRUCTIVE_SYNC" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
-  <Config Name="Excluded Sync Field" Target="EXCLUDED_SYNC_FIELDS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">["notes", "score"]</Config>
+  <Config Name="Excluded Sync Fields" Target="EXCLUDED_SYNC_FIELDS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">["notes", "score"]</Config>
   <Config Name="Database" Target="/app/data" Default="/mnt/user/appdata/PlexAniBridge/Database" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/PlexAniBridge/Database</Config>
   <Config Name="Logs" Target="/app/logs" Default="/mnt/user/appdata/PlexAniBridge/Logs" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/PlexAniBridge/Logs</Config>
   <Config Name="Log Level" Target="LOG_LEVEL" Default="INFO|DEBUG|WARNING|ERROR|CRITICAL" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">INFO</Config>
   <Config Name="Dry Run" Target="DRY_RUN" Default="False|True" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">False</Config>
-  <Config Name="Fuzzy Search Threshold" Target="FUZZY_SEARCH_THRESHOLD" Default="90" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">90</Config>
+  <Config Name="Search Fallback Threshold" Target="SEARCH_FALLBACK_THRESHOLD" Default="-1" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">-1</Config>
 </Container>
