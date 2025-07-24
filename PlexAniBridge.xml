@@ -19,9 +19,9 @@
   <Config Name="Plex Token" Target="PAB_PLEX_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
   <Config Name="Plex Username" Target="PAB_PLEX_USER" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Plex URL" Target="PAB_PLEX_URL" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Plex Library" Target="PAB_PLEX_SECTIONS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="false">[]</Config>
-  <Config Name="Plex Genres" Target="PAB_PLEX_GENRES" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="false">[]</Config>
-  <Config Name="Plex Metadata Source" Target="PAB_PLEX_METADATA_SOURCE" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="false">Local</Config>
+  <Config Name="Plex Library" Target="PAB_PLEX_SECTIONS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">[]</Config>
+  <Config Name="Plex Genres" Target="PAB_PLEX_GENRES" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">[]</Config>
+  <Config Name="Plex Metadata Source" Target="PAB_PLEX_METADATA_SOURCE" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">Local</Config>
   <Config Name="Sync Interval" Target="PAB_SYNC_INTERVAL" Default="3600" Mode="" Description="Seconds" Type="Variable" Display="always-hide" Required="true" Mask="false">3600</Config>
   <Config Name="Polling Scan" Target="PAB_POLLING_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
   <Config Name="Full Scan" Target="PAB_FULL_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
