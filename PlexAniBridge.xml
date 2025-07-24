@@ -21,13 +21,13 @@
   <Config Name="Plex URL" Target="PAB_PLEX_URL" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Plex Library" Target="PAB_PLEX_SECTIONS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">["ReplaceWithLibraryName"]</Config>
   <Config Name="Plex Genres" Target="PAB_PLEX_GENRES" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
-  <Config Name="Plex Metadata Source" Target="PAB_PLEX_METADATA_SOURCE" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="Plex Metadata Source" Target="PAB_PLEX_METADATA_SOURCE" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="false">Local</Config>
   <Config Name="Sync Interval" Target="PAB_SYNC_INTERVAL" Default="3600" Mode="" Description="Seconds" Type="Variable" Display="always-hide" Required="true" Mask="false">3600</Config>
   <Config Name="Polling Scan" Target="PAB_POLLING_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
   <Config Name="Full Scan" Target="PAB_FULL_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
   <Config Name="Destructive Sync" Target="PAB_DESTRUCTIVE_SYNC" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
   <Config Name="Excluded Sync Fields" Target="PAB_EXCLUDED_SYNC_FIELDS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">["notes", "score"]</Config>
-  <Config Name="Database" Target="/app/data" Default="/mnt/user/appdata/PlexAniBridge/Database" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/PlexAniBridge/Database</Config>
+  <Config Name="Database" Target="/app/data" Default="/mnt/user/appdata/PlexAniBridge" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/PlexAniBridge</Config>
   <Config Name="Log Level" Target="PAB_LOG_LEVEL" Default="INFO|DEBUG|SUCCESS|WARNING|ERROR|CRITICAL" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">INFO</Config>
   <Config Name="Dry Run" Target="PAB_DRY_RUN" Default="False|True" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">False</Config>
   <Config Name="Batch Requests" Target="PAB_BATCH_REQUESTS" Default="False|True" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">False</Config>
