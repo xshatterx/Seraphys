@@ -15,18 +15,21 @@
   <Icon>https://raw.githubusercontent.com/xshatterx/Seraphys/119181881e9f47b4e22102b771876132550b4aaa/PlexAniBridge.png</Icon>
   <ExtraParams/>
   <PostArgs/>
-  <Config Name="AniList Token" Target="ANILIST_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
-  <Config Name="Plex Token" Target="PLEX_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
-  <Config Name="Plex Username" Target="PLEX_USER" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Plex URL" Target="PLEX_URL" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Plex Library" Target="PLEX_SECTIONS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">["ReplaceWithLibraryName"]</Config>
-  <Config Name="Sync Interval" Target="SYNC_INTERVAL" Default="3600" Mode="" Description="Seconds" Type="Variable" Display="always-hide" Required="true" Mask="false">3600</Config>
-  <Config Name="Polling Scan" Target="POLLING_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
-  <Config Name="Full Scan" Target="FULL_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
-  <Config Name="Destructive Sync" Target="DESTRUCTIVE_SYNC" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
-  <Config Name="Excluded Sync Fields" Target="EXCLUDED_SYNC_FIELDS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">["notes", "score"]</Config>
+  <Config Name="AniList Token" Target="PAB_ANILIST_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
+  <Config Name="Plex Token" Target="PAB_PLEX_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
+  <Config Name="Plex Username" Target="PAB_PLEX_USER" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Plex URL" Target="PAB_PLEX_URL" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Plex Library" Target="PAB_PLEX_SECTIONS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">["ReplaceWithLibraryName"]</Config>
+  <Config Name="Plex Genres" Target="PAB_PLEX_GENRES" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="Plex Metadata Source" Target="PAB_PLEX_METADATA_SOURCE" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="Sync Interval" Target="PAB_SYNC_INTERVAL" Default="3600" Mode="" Description="Seconds" Type="Variable" Display="always-hide" Required="true" Mask="false">3600</Config>
+  <Config Name="Polling Scan" Target="PAB_POLLING_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
+  <Config Name="Full Scan" Target="PAB_FULL_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
+  <Config Name="Destructive Sync" Target="PAB_DESTRUCTIVE_SYNC" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
+  <Config Name="Excluded Sync Fields" Target="PAB_EXCLUDED_SYNC_FIELDS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">["notes", "score"]</Config>
   <Config Name="Database" Target="/app/data" Default="/mnt/user/appdata/PlexAniBridge/Database" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/PlexAniBridge/Database</Config>
-  <Config Name="Log Level" Target="LOG_LEVEL" Default="INFO|DEBUG|SUCCESS|WARNING|ERROR|CRITICAL" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">INFO</Config>
-  <Config Name="Dry Run" Target="DRY_RUN" Default="False|True" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">False</Config>
-  <Config Name="Search Fallback Threshold" Target="SEARCH_FALLBACK_THRESHOLD" Default="-1" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">-1</Config>
+  <Config Name="Log Level" Target="PAB_LOG_LEVEL" Default="INFO|DEBUG|SUCCESS|WARNING|ERROR|CRITICAL" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">INFO</Config>
+  <Config Name="Dry Run" Target="PAB_DRY_RUN" Default="False|True" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">False</Config>
+  <Config Name="Batch Requests" Target="PAB_BATCH_REQUESTS" Default="False|True" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">False</Config>
+  <Config Name="Search Fallback Threshold" Target="PAB_SEARCH_FALLBACK_THRESHOLD" Default="-1" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">-1</Config>
 </Container>
