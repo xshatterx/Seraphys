@@ -23,7 +23,7 @@
   <Config Name="Plex Genres" Target="PAB_PLEX_GENRES" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">[]</Config>
   <Config Name="Plex Metadata Source" Target="PAB_PLEX_METADATA_SOURCE" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">Local</Config>
   <Config Name="Sync Interval" Target="PAB_SYNC_INTERVAL" Default="3600" Mode="" Description="Seconds" Type="Variable" Display="always-hide" Required="true" Mask="false">3600</Config>
-  <Config Name="Sync Modes" Target="PAB_SYNC_MODES" Default="Periodic|Poll|Webhook" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="Periodic">False</Config>
+  <Config Name="Sync Modes" Target="PAB_SYNC_MODES" Default="["Periodic"]|["Poll"]|["Webhook"]" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="Periodic">False</Config>
   <Config Name="Full Scan" Target="PAB_FULL_SCAN" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
   <Config Name="Destructive Sync" Target="PAB_DESTRUCTIVE_SYNC" Default="False|True" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">False</Config>
   <Config Name="Excluded Sync Fields" Target="PAB_EXCLUDED_SYNC_FIELDS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">["notes", "score"]</Config>
@@ -33,4 +33,5 @@
   <Config Name="Batch Requests" Target="PAB_BATCH_REQUESTS" Default="False|True" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">False</Config>
   <Config Name="Search Fallback Threshold" Target="PAB_SEARCH_FALLBACK_THRESHOLD" Default="-1" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">-1</Config>
 </Container>
+
 
