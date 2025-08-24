@@ -21,4 +21,8 @@
   <Config Name="Github Username" Target="GIT_USER_NAME" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">Profilarr</Config>
   <Config Name="Github Email" Target="GIT_USER_EMAIL" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">profilarr@dictionarry.com</Config>
   <Config Name="Github Access Key" Target="PROFILARR_PAT" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="true"/>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">002</Config>
 </Container>
+
