@@ -19,4 +19,7 @@
   <Config Name="Config" Target="/app/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Allowed Hosts" Target="HOMEPAGE_ALLOWED_HOSTS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">IPADDRESS:PORT</Config>
   <Config Name="Docker Socket" Target="/var/run/docker.sock" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false">/var/run/docker.sock</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">002</Config>
 </Container>
