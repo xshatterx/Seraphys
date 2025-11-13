@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Profilarr</Name>
-  <Repository>santiagosayshey/profilarr:latest</Repository>
+  <Repository>santiagosayshey/profilarr:beta</Repository>
   <Registry>https://hub.docker.com/r/santiagosayshey/profilarr</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
@@ -25,4 +25,5 @@
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
   <Config Name="UMASK" Target="UMASK" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">002</Config>
 </Container>
+
 
