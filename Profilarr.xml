@@ -13,7 +13,7 @@
   <Category>Productivity: Tools: MediaApp:Video MediaServer:Video</Category>
   <WebUI>http://[IP]:[PORT:6868]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/Dictionarry-Hub/logo/refs/heads/main/profilarr/profilarr.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Dictionarry-Hub/profilarr/refs/heads/v2/src/lib/client/assets/logo-512.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <Config Name="WebUI" Target="6868" Default="6868" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"/>
@@ -25,6 +25,7 @@
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
   <Config Name="UMASK" Target="UMASK" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">002</Config>
 </Container>
+
 
 
 
